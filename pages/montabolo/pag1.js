@@ -3,7 +3,7 @@ import { View, TextInput, Text, TouchableOpacity, ScrollView} from 'react-native
 
 import style from './style';
 
-export default function Home ({navigation}) {
+export default function Seubolo ({navigation}) {
 
     return (
         <ScrollView>
@@ -13,7 +13,7 @@ export default function Home ({navigation}) {
         <View style={style.viewmbolo}>
                 <View style={style.montabolo}>
                     
-                    <TouchableOpacity onPress={ () => { navigation.navigate("Seubolo") }}> 
+                    <TouchableOpacity> 
                         <Text>Monte seu Bolo</Text>
                     </TouchableOpacity>                                   
               
